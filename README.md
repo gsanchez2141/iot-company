@@ -2,7 +2,7 @@
 
 # Architecture Diagram
 
-![IOT Architecture Pipeline.png](..%2F..%2F..%2F..%2FDownloads%2FIOT%20Architecture%20Pipeline.png)
+![IOT Architecture Pipeline.png](architecture%2FIOT%20Architecture%20Pipeline.png)
 
 # Current Implementation 
 - Python script that generates IoT Mock Data according to CSV Sample - On bin/sqs_generator
@@ -58,23 +58,24 @@
 - Git clone into a new folder
 - Deploy stack, resources and run mock data generator
   - Once on the root of your iot-company repo
-    - cd bin
-    - ./docker-script.sh start
+    - `cd bin`
+    - `./docker-script.sh start`
     - RUN Sample Curls provided below which I believe fulfills all the [questions](sqls_with_explanations.sql) 
     - Check the localstack logs with the sample provided below
     - Log in with your favorite IDE to the postgres db to run and check and validate the SQL [queries](sqls_with_explanations.sql) 
     - Once you're done 
-    - ./docker-script.sh stop will destroy and tear down all the stack and resources
+    - `./docker-script.sh stop` will destroy and tear down all the stack and resources
 
 
 ## Sample to check LocalStack logs 
-- awslocal logs describe-log-groups
+- `awslocal logs describe-log-groups`
 
 ## Sample API Curls 
 Once the .sh scripts finishes deploying the following curls can be run
-- curl -X 'GET'   'http://localhost:8000/similar_trips'   -H 'accept: application/json'
-- curl -X 'GET' 'http://localhost:8000/weekly_average_trips?min_lon=-120&min_lat=-30&max_lon=50&max_lat=70' -H 'accept: application/json'
-- curl -X 'GET' 'http://localhost:8000/weekly_average_trips_by_regions?regions=Davidport&regions=New%20Brandonmouth&regions=Taylorstad' -H 'accept: application/json'
+Open your terminal and run the following 
+- `curl -X 'GET'   'http://localhost:8000/similar_trips'   -H 'accept: application/json'`
+- `curl -X 'GET' 'http://localhost:8000/weekly_average_trips?min_lon=-120&min_lat=-30&max_lon=50&max_lat=70' -H 'accept: application/json'`
+- `curl -X 'GET' 'http://localhost:8000/weekly_average_trips_by_regions?regions=Davidport&regions=New%20Brandonmouth&regions=Taylorstad' -H 'accept: application/json'`
 
 ## Logging into the db to run the queries if you like
 Before destroying and bringing down the deployment you can access the postgres db and run the queries on [sqls_with_explanations.sql](sqls_with_explanations.sql) 
