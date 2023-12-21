@@ -42,7 +42,9 @@
   - Testing 
     - Unit 
     - Integration
-  - Reading sample CSV and persisting it on a different table with the purpose of answering the last SQL question 
+  - Reading sample CSV and persisting it on a different table with the purpose of answering the last SQL question
+  - Develop a way to inform the user about the status of the data ingestion without using a
+polling solution.
 
 
 ## Requirements:
