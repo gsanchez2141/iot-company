@@ -1,0 +1,6 @@
+PyJWT
+fastapi
+requests
+fastapi
+uvicorn
+psycopg2-binary

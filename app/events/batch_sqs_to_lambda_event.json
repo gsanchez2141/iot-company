@@ -1,0 +1,164 @@
+{
+  "Records": [
+    {
+      "messageId": "1",
+      "receiptHandle": "handle_1",
+      "body": "{\"region\":\"Region1\",\"origin_coord\":\"POINT (12.3456 78.9101)\",\"destination_coord\":\"POINT (23.4567 45.6789)\",\"datetime\":\"2023-01-01T12:00:00.000000\",\"datasource\":\"source1\",\"messageId\":\"1\",\"timestamp\":\"2023-12-20T12:00:00.000000\"}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1640018206278",
+        "SenderId": "SenderID1",
+        "ApproximateFirstReceiveTimestamp": "1640018206281"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "md5_hash_1",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-west-2:123456789012:my-queue",
+      "awsRegion": "us-west-2"
+    },
+    {
+      "messageId": "2",
+      "receiptHandle": "handle_2",
+      "body": "{\"region\":\"Region2\",\"origin_coord\":\"POINT (34.5678 -89.0123)\",\"destination_coord\":\"POINT (-12.3456 67.8901)\",\"datetime\":\"2023-02-02T14:30:00.000000\",\"datasource\":\"source2\",\"messageId\":\"2\",\"timestamp\":\"2023-12-20T14:30:00.000000\"}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1640018206278",
+        "SenderId": "SenderID2",
+        "ApproximateFirstReceiveTimestamp": "1640018206281"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "md5_hash_2",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-west-2:123456789012:my-queue",
+      "awsRegion": "us-west-2"
+    },
+    {
+      "messageId": "3",
+      "receiptHandle": "handle_3",
+      "body": "{\"region\":\"Region3\",\"origin_coord\":\"POINT (-45.6789 23.4567)\",\"destination_coord\":\"POINT (56.7890 -34.5678)\",\"datetime\":\"2023-03-03T18:45:00.000000\",\"datasource\":\"source3\",\"messageId\":\"3\",\"timestamp\":\"2023-12-20T18:45:00.000000\"}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1640018206278",
+        "SenderId": "SenderID3",
+        "ApproximateFirstReceiveTimestamp": "1640018206281"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "md5_hash_3",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-west-2:123456789012:my-queue",
+      "awsRegion": "us-west-2"
+    },
+    {
+      "messageId": "4",
+      "receiptHandle": "handle_4",
+      "body": "{\"region\":\"Region4\",\"origin_coord\":\"POINT (0.1234 0.5678)\",\"destination_coord\":\"POINT (1.2345 1.6789)\",\"datetime\":\"2023-04-04T22:15:00.000000\",\"datasource\":\"source4\",\"messageId\":\"4\",\"timestamp\":\"2023-12-20T22:15:00.000000\"}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1640018206278",
+        "SenderId": "SenderID4",
+        "ApproximateFirstReceiveTimestamp": "1640018206281"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "md5_hash_4",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-west-2:123456789012:my-queue",
+      "awsRegion": "us-west-2"
+    },
+    {
+      "messageId": "5",
+      "receiptHandle": "handle_5",
+      "body": "{\"region\":\"Region5\",\"origin_coord\":\"POINT (-10.9876 56.7890)\",\"destination_coord\":\"POINT (23.4567 -12.3456)\",\"datetime\":\"2023-05-05T03:30:00.000000\",\"datasource\":\"source5\",\"messageId\":\"5\",\"timestamp\":\"2023-12-21T03:30:00.000000\"}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1640018206278",
+        "SenderId": "SenderID5",
+        "ApproximateFirstReceiveTimestamp": "1640018206281"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "md5_hash_5",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-west-2:123456789012:my-queue",
+      "awsRegion": "us-west-2"
+    },
+    {
+      "messageId": "6",
+      "receiptHandle": "handle_6",
+      "body": "{\"region\":\"Region6\",\"origin_coord\":\"POINT (78.9101 -23.4567)\",\"destination_coord\":\"POINT (-34.5678 45.6789)\",\"datetime\":\"2023-06-06T07:45:00.000000\",\"datasource\":\"source6\",\"messageId\":\"6\",\"timestamp\":\"2023-12-21T07:45:00.000000\"}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1640018206278",
+        "SenderId": "SenderID6",
+        "ApproximateFirstReceiveTimestamp": "1640018206281"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "md5_hash_6",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-west-2:123456789012:my-queue",
+      "awsRegion": "us-west-2"
+    },
+    {
+      "messageId": "7",
+      "receiptHandle": "handle_7",
+      "body": "{\"region\":\"Region7\",\"origin_coord\":\"POINT (56.7890 12.3456)\",\"destination_coord\":\"POINT (-23.4567 -78.9101)\",\"datetime\":\"2023-07-07T12:00:00.000000\",\"datasource\":\"source7\",\"messageId\":\"7\",\"timestamp\":\"2023-12-21T12:00:00.000000\"}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1640018206278",
+        "SenderId": "SenderID7",
+        "ApproximateFirstReceiveTimestamp": "1640018206281"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "md5_hash_7",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-west-2:123456789012:my-queue",
+      "awsRegion": "us-west-2"
+    },
+    {
+      "messageId": "8",
+      "receiptHandle": "handle_8",
+      "body": "{\"region\":\"Region8\",\"origin_coord\":\"POINT (-0.1234 -56.7890)\",\"destination_coord\":\"POINT (78.9101 34.5678)\",\"datetime\":\"2023-08-08T16:15:00.000000\",\"datasource\":\"source8\",\"messageId\":\"8\",\"timestamp\":\"2023-12-21T16:15:00.000000\"}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1640018206278",
+        "SenderId": "SenderID8",
+        "ApproximateFirstReceiveTimestamp": "1640018206281"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "md5_hash_8",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-west-2:123456789012:my-queue",
+      "awsRegion": "us-west-2"
+    },
+    {
+      "messageId": "9",
+      "receiptHandle": "handle_9",
+      "body": "{\"region\":\"Region9\",\"origin_coord\":\"POINT (10.9876 23.4567)\",\"destination_coord\":\"POINT (-45.6789 -67.8901)\",\"datetime\":\"2023-09-09T20:30:00.000000\",\"datasource\":\"source9\",\"messageId\":\"9\",\"timestamp\":\"2023-12-21T20:30:00.000000\"}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1640018206278",
+        "SenderId": "SenderID9",
+        "ApproximateFirstReceiveTimestamp": "1640018206281"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "md5_hash_9",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-west-2:123456789012:my-queue",
+      "awsRegion": "us-west-2"
+    },
+    {
+      "messageId": "10",
+      "receiptHandle": "handle_10",
+      "body": "{\"region\":\"Region10\",\"origin_coord\":\"POINT (-78.9101 34.5678)\",\"destination_coord\":\"POINT (0.1234 -12.3456)\",\"datetime\":\"2023-10-10T00:45:00.000000\",\"datasource\":\"source10\",\"messageId\":\"10\",\"timestamp\":\"2023-12-21T00:45:00.000000\"}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1640018206278",
+        "SenderId": "SenderID10",
+        "ApproximateFirstReceiveTimestamp": "1640018206281"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "md5_hash_10",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-west-2:123456789012:my-queue",
+      "awsRegion": "us-west-2"
+    }
+  ]
+}
