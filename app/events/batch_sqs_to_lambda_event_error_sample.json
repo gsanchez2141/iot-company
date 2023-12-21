@@ -1,0 +1,36 @@
+{
+  "Records": [
+    {
+      "messageId": "6520b5ef-81aa-4954-86be-5bf97f8dc6a2",
+      "receiptHandle": "AQEB9Tn6d...",
+      "body": "{\"region\":\"Justinmouth\",\"origin_coord\":\"POINT (-160.5671624298570350 -10.7246441246979884)\",\"destination_coord\":\"POINT (-147.6462495844954788 -50.8399358262239787)\",\"datetime\":\"2021-07-13T19:14:44.297198\",\"datasource\":\"black\",\"messageId\":\"6520b5ef-81aa-4954-86be-5bf97f8dc6a2\",\"timestamp\":\"2023-12-20T05:36:37.712673\"}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1640018206278",
+        "SenderId": "AROAZNEXAMPLE:Test",
+        "ApproximateFirstReceiveTimestamp": "1640018206281"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "e4e68fb7bd0e697a0ae8f1bb342846b3",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-west-2:123456789012:my-queue",
+      "awsRegion": "us-west-2"
+    },
+    {
+      "messageId": "another-message-id",
+      "receiptHandle": "another-receipt-handle",
+      "body": "{\"region\":\"AnotherRegion\",\"origin_coord\":\"POINT (x y)\",\"destination_coord\":\"POINT (x y)\",\"datetime\":\"2023-01-01T00:00:00.000000\",\"datasource\":\"sample\",\"messageId\":\"another-message-id\",\"timestamp\":\"2023-12-20T12:00:00.000000\"}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1640018206278",
+        "SenderId": "AROAZNEXAMPLE:Test",
+        "ApproximateFirstReceiveTimestamp": "1640018206281"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "another-md5-hash",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-west-2:123456789012:my-queue",
+      "awsRegion": "us-west-2"
+    }
+  ]
+}
