@@ -56,6 +56,8 @@ case "$1" in
 
         docker-compose -f "$CURRENT_DIR/docker-compose.yml" up -d
 
+        # Removal of APIs src
+        rm -rf "$CURRENT_DIR/src"
 
 
         # Create SQS queue
